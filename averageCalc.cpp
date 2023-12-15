@@ -38,7 +38,6 @@
      "1 to 100 and will calculate their average.\n";
 
      // This loop generates the random numbers and adds them to the list.
-     // use a for loop when counter < ARRAY_SIZE
      for (int counter = 0; counter < MAX_ARRAY_SIZE; counter++) {
          // Initializing seed.
          std::random_device rseed;
